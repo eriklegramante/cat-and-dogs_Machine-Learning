@@ -1,0 +1,4 @@
+/cats_and_dogs/
+*.log
+/venv/
+*.tmp
