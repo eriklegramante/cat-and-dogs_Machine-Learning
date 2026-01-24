@@ -15,7 +15,7 @@ st.write("Envie uma imagem e o modelo irá identificar se é um **gato** ou **ca
 @st.cache_resource
 def load_model():
     return tf.keras.models.load_model(
-        "/home/legramante/Documentos/catandogs/models/cat_dog_classifier.h5"
+        "/home/legramante/Documentos/cat-and-dogs_Machine-Learning/models/cat_dog_classifier2.h5"
     )
 
 model = load_model()
